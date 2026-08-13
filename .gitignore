@@ -1,0 +1,37 @@
+# ROS / Catkin generated folders
+build/
+devel/
+install/
+log/
+logs/
+
+# ROS recordings and large generated data
+*.bag
+*.bag.active
+*.pgm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# AI datasets and weights
+datasets/
+runs/
+*.pt
+*.onnx
+*.engine
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Company training material and local secrets
+training-materials/
+internal/
+.env
+*.secret
+
